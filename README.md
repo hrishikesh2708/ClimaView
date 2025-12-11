@@ -122,11 +122,6 @@ To run the frontend and backend separately for development:
 
 ## 📸 Screenshots
 
-![Dashboard]()
-![Temperature Chart]()
-![Meteogram]()
-![Details View]()
-
 <table>
   <tr>
     <td align="center">
