@@ -2,7 +2,7 @@ import * as React from "react";
 import { useSelector } from "react-redux";
 import { RootState, useAppDispatch } from "../../store";
 import twitterLogo from "../../assets/twitter.svg";
-import angleLeftIcon from "../../assets/angleleft.svg";
+import angleLeftIcon from "../../assets/angleLeft.svg";
 import { AdvancedMarker, APIProvider, Map } from "@vis.gl/react-google-maps";
 import { Button, Container, Row, Col, Table } from "react-bootstrap";
 import {
