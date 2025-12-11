@@ -1,5 +1,5 @@
-# ClimaView
-
+# ClimaView – Real-Time Weather & Location Search App
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://clima-view-kappa.vercel.app/)
 A robust, full-stack weather application built with the MERN stack (MongoDB, Express, React, Node.js). ClimaView provides real-time weather updates, detailed forecasts, and interactive charts for cities worldwide, featuring a seamless search experience and favorites management.
 
 ## 🚀 Features & Capabilities
@@ -122,11 +122,47 @@ To run the frontend and backend separately for development:
 
 ## 📸 Screenshots
 
-*(Placeholder: Insert screenshots of the Dashboard, Search Interface, and Details View here)*
-![Dashboard](./react_weather_search_app/public/1.png)
-![Temperature Chart](./react_weather_search_app/public/2.png)
-![Meteogram](./react_weather_search_app/public/3.png)
-![Details View](./react_weather_search_app/public/4.png)
+![Dashboard]()
+![Temperature Chart]()
+![Meteogram]()
+![Details View]()
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./react_weather_search_app/public/1.png" width="400" />
+      <br />
+      <sub><b>Figure 1:</b> Home Screen UI</sub>
+    </td>
+    <td align="center">
+      <img src="./react_weather_search_app/public/5.png" width="400" />
+      <br />
+      <sub><b>Figure 2:</b> City Search & Autocomplete</sub>
+    </td>
+  </tr>
+<tr>
+    <td align="center">
+      <img src="./react_weather_search_app/public/2.png" width="400" />
+      <br />
+      <sub><b>Figure 3:</b>Temperature Chart</sub>
+    </td>
+    <td align="center">
+      <img src="./react_weather_search_app/public/3.png" width="400" />
+      <br />
+      <sub><b>Figure 4:</b>Meteogram</sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="./react_weather_search_app/public/4.png" width="400" />
+      <br />
+      <sub><b>Figure 5:</b> Detailed Weather View</sub>
+    </td>
+  </tr>
+
+
+</table>
 
 ## ☁️ Deployment
 
