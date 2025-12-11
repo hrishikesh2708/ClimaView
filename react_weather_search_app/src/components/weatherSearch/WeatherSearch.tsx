@@ -60,7 +60,7 @@ const WeatherSearch: React.FC = () => {
         (option) =>
           option.key ===
           store?.autocomplete?.autocompleteStateSuggestion[
-            store?.autocomplete?.autocompleteSuggestion.indexOf(selectedCity)
+          store?.autocomplete?.autocompleteSuggestion.indexOf(selectedCity)
           ]
       )?.value != undefined
     ) {
@@ -70,7 +70,7 @@ const WeatherSearch: React.FC = () => {
           (option) =>
             option.key ===
             store?.autocomplete?.autocompleteStateSuggestion[
-              store?.autocomplete?.autocompleteSuggestion.indexOf(selectedCity)
+            store?.autocomplete?.autocompleteSuggestion.indexOf(selectedCity)
             ]
         )?.value!
       );
@@ -168,7 +168,7 @@ const WeatherSearch: React.FC = () => {
   return (
     <div className="weather-search-component pt-3 pb-3 px-3 mt-2">
       <Row className="text-center">
-        <p className="h2">Weather Search ⛅️</p>
+        <p className="h2">ClimaView ⛅️</p>
       </Row>
       <Form className="mt-3">
         <div className="form-div">
@@ -284,9 +284,8 @@ const WeatherSearch: React.FC = () => {
           </Form.Label>
           <div className="w-auto px-0">
             <input
-              className={`form-check-input ${
-                isChecked ? "bg-warning border-0" : ""
-              }`}
+              className={`form-check-input ${isChecked ? "bg-warning border-0" : ""
+                }`}
               type="checkbox"
               checked={isChecked}
               onChange={handleCheckboxChange}
