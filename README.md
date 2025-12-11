@@ -1,5 +1,5 @@
-# ClimaView – Real-Time Weather & Location Search App
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://clima-view-kappa.vercel.app/)
+# ClimaView  [![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://clima-view-kappa.vercel.app/)
+
 A robust, full-stack weather application built with the MERN stack (MongoDB, Express, React, Node.js). ClimaView provides real-time weather updates, detailed forecasts, and interactive charts for cities worldwide, featuring a seamless search experience and favorites management.
 
 ## 🚀 Features & Capabilities
