@@ -12,6 +12,45 @@ A robust, full-stack weather application built with the MERN stack (MongoDB, Exp
 - **Responsive Design**: Built with Bootstrap for a consistent experience across devices.
 - **View Switching**: Easily toggle between current Search Results and Favorites list.
 
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./react_weather_search_app/public/1.png" width="400" />
+      <br />
+      <sub><b>Figure 1:</b> Home Screen UI</sub>
+    </td>
+    <td align="center">
+      <img src="./react_weather_search_app/public/5.png" width="400" />
+      <br />
+      <sub><b>Figure 2:</b> City Search & Autocomplete</sub>
+    </td>
+  </tr>
+<tr>
+    <td align="center">
+      <img src="./react_weather_search_app/public/2.png" width="400" />
+      <br />
+      <sub><b>Figure 3:</b>Temperature Chart</sub>
+    </td>
+    <td align="center">
+      <img src="./react_weather_search_app/public/3.png" width="400" />
+      <br />
+      <sub><b>Figure 4:</b>Meteogram</sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="./react_weather_search_app/public/4.png" width="400" />
+      <br />
+      <sub><b>Figure 5:</b> Detailed Weather View</sub>
+    </td>
+  </tr>
+
+
+</table>
+
 ## 🛠 Tech Stack
 
 ### Frontend
@@ -120,44 +159,7 @@ To run the frontend and backend separately for development:
 1. **Start Backend**: `node app.js` (Root)
 2. **Start Frontend**: `cd react_weather_search_app && npm run dev`
 
-## 📸 Screenshots
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="./react_weather_search_app/public/1.png" width="400" />
-      <br />
-      <sub><b>Figure 1:</b> Home Screen UI</sub>
-    </td>
-    <td align="center">
-      <img src="./react_weather_search_app/public/5.png" width="400" />
-      <br />
-      <sub><b>Figure 2:</b> City Search & Autocomplete</sub>
-    </td>
-  </tr>
-<tr>
-    <td align="center">
-      <img src="./react_weather_search_app/public/2.png" width="400" />
-      <br />
-      <sub><b>Figure 3:</b>Temperature Chart</sub>
-    </td>
-    <td align="center">
-      <img src="./react_weather_search_app/public/3.png" width="400" />
-      <br />
-      <sub><b>Figure 4:</b>Meteogram</sub>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      <img src="./react_weather_search_app/public/4.png" width="400" />
-      <br />
-      <sub><b>Figure 5:</b> Detailed Weather View</sub>
-    </td>
-  </tr>
-
-
-</table>
 
 ## ☁️ Deployment
 
