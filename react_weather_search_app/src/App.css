@@ -1,0 +1,89 @@
+.root-container {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.form-div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .root-container {
+    width: 95% !important;
+    margin: 0 auto;
+  }
+
+  .form-div {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.slide-right, .slide-left {
+  width: 100%;
+}
+.slide-right {
+  animation: 1s slide-right;
+}
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.slide-left {
+  animation: 1s slide-left;
+}
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.weather-search-component {
+  background-color: #f2f2f1;
+  align-self: center;
+}
+
+.custom-btn {
+  color: #316cf4 !important;
+  border: none !important;
+}
+
+.custom-btn:active {
+  background-color: #316cf4 !important;
+  color: #fff !important;
+}
+
+.message-component {
+  width: 80%;
+  align-self: center;
+}
+
+.tabs-component {
+  align-self: center;
+}
+
+.table-head {
+  width: 30%;
+}
+
+.remove-padding {
+  padding: 0 !important;
+}
+.custom-list-group {
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-list-group-item {
+  border: none !important;
+}
